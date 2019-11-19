@@ -125,6 +125,11 @@
 /*.single-about-img */
 
 /* Top Navigation- hi i am new */
+
+.mainav {
+  text-align: center;
+}
+
 mainav{text-align:center;}
 mainav ul{text-transform:uppercase;}
 mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none; text-align:left;}
