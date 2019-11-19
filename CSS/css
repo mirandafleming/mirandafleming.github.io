@@ -1,1 +1,13 @@
 /* CSS reference page */
+
+
+
+
+footer {                        
+    display: fixed;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+/*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
