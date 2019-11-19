@@ -18,8 +18,15 @@
 	text-align:center;
 }
 
+.gridMain{
+	/*from W3Schools https://www.w3schools.com/css/css_grid_container.asp */
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	justify-content: space-evenly;
+	
+}
 
-/* Top Navigation- hi i am new */
+/* Top Navigation from https://www.free-css.com/free-css-templates/page245/jovaphile */
 mainav{
 	text-align:center;
 }
@@ -58,6 +65,7 @@ mainav li li a{
 	border:solid; 
 	border-width:0 0 1px 0;
 }
+/*
 mainav .drop{
 	padding-left:15px;
 }
@@ -77,6 +85,7 @@ mainav li li .drop::after{
 	top:15px; 
 	left:5px;
 }
+*/
 mainav ul ul{
 	visibility:hidden; 
 	opacity:0;
@@ -110,7 +119,7 @@ mainav form select option{
 
 /* Navigation */
 #mainav li a{
-	color:#FFFFFF;
+	color:#000000;
 }
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{
 	color:#74D3D3; 
