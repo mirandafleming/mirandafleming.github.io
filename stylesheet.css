@@ -30,8 +30,9 @@
 mainav{
 	text-align:center;
 }
-mainav ul{
+ul{
 	text-transform:uppercase;
+	list-style-type:none;
 }
 mainav ul ul{
 	z-index:9999; 
