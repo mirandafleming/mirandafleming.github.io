@@ -26,6 +26,18 @@
 	
 }
 
+/* Flexbox format from https://www.w3schools.com/css/css_float.asp */
+.flexbox {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.flexbox .box {
+	width: 50%;
+	margin: 100px;
+	margin-bottom: 40px;
+}
+
 /* Top Navigation from https://www.free-css.com/free-css-templates/page245/jovaphile */
 mainav{
 	text-align:center;
