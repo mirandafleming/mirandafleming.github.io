@@ -2,15 +2,22 @@
 
 /*style form from heading*/
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width:100%;
-}}
+/*Nick O'Hanley's First Block on Home Page for images */
 
-* {
-  box-sizing: border-box;
+.responsive {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
+    
+
+
+/* This affects the h3 Title placement */
 
 .title{
 	background-color:#e5e5e5;
@@ -142,11 +149,6 @@ mainav form select option{
 }
 
 /*style form from heading*/
-
-
-body {
-	font-family:Verdana;
-	color:#aaaaaa;
 } /* W3Schools https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3 */
 
 
@@ -156,22 +158,33 @@ body {
 
 .about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
+
 .section-heading{
+    color:#636a82;
 	text-transform: uppercase;
 	text-align: center;
 }
-/*.single-about-txt*/
+/*.single-about-txt* - Nick OHanley* - Cartographic representations through generalizatons*/
 .single-about-txt h3 {
-    font-size:18px;
-    color: #3c4258;
-    text-transform: initial;
-    line-height: 1.8;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #74D3D3;
+    text-transform: uppercase;	
+    background-color:#e5e5e5;
+	padding:15px;
+	text-align:center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    
 }
+
 .single-about-txt p {
-    font-size: 16px;
+    text-align: center;
+    font-size: 20px;
     color: #999fb3;
     padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
+    border-bottom: 1px solid #999fb3
+   
 }
 .single-about-add-info {
     margin: 35px 0;
