@@ -32,7 +32,7 @@
 	
 }
 
-.navbar {
+.navbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -50,8 +50,8 @@
 
 .navbar li a {
 	display: inline-block;
+	text-decoration: none;		
 	padding: 10px 15px;
-	text-decoration: none;
 }
 
 .dropbtn {
@@ -73,6 +73,14 @@
 }
 
 .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: lightblue;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
 	color: brown;
 	padding: 12px 16px;
 	text-decoration: none;
@@ -320,13 +328,13 @@ mainav form select option{
 }
 /*.ab-list-icon */
 
-
-
-#footer {                        
+/* -----------------------------------------------------------*/
+/* footer section */
+footer {                        
     display: fixed;
     justify-content: center;
     padding: 5px;
-    background-color: #1E90FF;
+    background-color: #00008B;
     color: #fff;
 }
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
