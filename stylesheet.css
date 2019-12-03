@@ -32,31 +32,28 @@
 	
 }
 
-.navbar {
+ul.navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: lightblue;  /* just using bright colors so I can see what works & doesnt, will change later */
+	background-color: lightcoral;  /* just using bright colors so I can see what works & doesnt, will change later */
 	overflow: hidden;
 	position: sticky; 	/* so it'll stay at the top as you scroll */
 	top: 0;
 	width: 100%; 		/* figure out if still need to set width when using sticky */
 }
 
-.navbar li {
+ul.navbar li {
 	float: left;		
 	padding: 10px 15px;
 }
 
-.navbar li a {
+ul.navbar li a {
 	display: inline-block; 		/* makes whole area clickable, not just text & puts them inline */
 	padding: 10px 15px;
 	text-decoration: none		 /* removes underlines from links*/ 
 }
 
-.dropnav {    	
-	display: inline-block;
-}  	
 
 .dropnav li {		       /* active if change to li.dropnavContent, but lists links in absolute position */
 	visibility: hidden;
@@ -316,13 +313,14 @@ mainav form select option{
 }
 /*.ab-list-icon */
 
-
-
+/* -----------------------------------------------------------*/
+/* footer section */
 #footer {                        
     display: fixed;
     justify-content: center;
     padding: 5px;
-    background-color: #1E90FF;
+    margin-top: 20px; /* space between content and footer */
+    background-color: #00008B;
     color: #fff;
 }
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
