@@ -54,11 +54,10 @@ ul.navbar li a {
 	text-decoration: none		 /* removes underlines from links*/ 
 }
 
-.dropnav {    	
-	display: inline-block;
-}  	
 
 .dropnav li {		       /* active if change to li.dropnavContent, but lists links in absolute position */
+	visibility: hidden;
+	opacity: 0;
 	display: none;
 	position: relative;		/* should place drop down content right below button */
 	background-color: lightgreen;
