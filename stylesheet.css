@@ -32,55 +32,70 @@
 	
 }
 
-ul.navbar {
+.navbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: lightcoral;  /* just using bright colors so I can see what works & doesnt, will change later */
+	background-color: lightgray;
 	overflow: hidden;
-	position: sticky; 	/* so it'll stay at the top as you scroll */
+	position: sticky;
 	top: 0;
-	width: 100%; 		/* figure out if still need to set width when using sticky */
-}
-
-ul.navbar li {
-	float: left;		
-	padding: 10px 15px;
-}
-
-ul.navbar li a {
-	display: inline-block; 		/* makes whole area clickable, not just text & puts them inline */
-	padding: 10px 15px;
-	text-decoration: none		 /* removes underlines from links*/ 
-}
-
-
-.dropnav li {		       /* active if change to li.dropnavContent, but lists links in absolute position */
-	visibility: hidden;
-	opacity: 0;
-	display: none;
-	position: relative;		/* should place drop down content right below button */
-	background-color: lightgreen;
 	width: 100%;
-	z-index: 1;		/* z index specifies stack order of elements, still testing it */
 }
 
-.dropnav li a {		/* block not doing anything */
-	visibility: hidden;
-	opacity: 0;
-	position: relative; 
-	color: blue;
+.navbar li {
+	float: left;
 	padding: 10px 15px;
+}
+
+.navbar li a {
+	display: inline-block;
+	text-decoration: none;		
+	padding: 10px 15px;
+}
+
+.dropbtn {
+	background-color: lightgreen;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: lightpink;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: lightblue;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: brown;
+	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-} 
-
-.dropnav li a:hover {
-	visibility: visible;
-	opacity: 1;
-	background-color: pink;
-	padding: 10px 15px;
 }
+
+.dropdown-content a:hover {
+	background-color: red;
+}
+
+.show {
+	display: block;
+}
+
+
 
 /* ul.dropnav:hover .dropbtn {		/* I think used it twice??
 	background-color: lightgreen;
@@ -313,13 +328,13 @@ mainav form select option{
 }
 /*.ab-list-icon */
 
-
-
-#footer {                        
+/* -----------------------------------------------------------*/
+/* footer section */
+footer {                        
     display: fixed;
     justify-content: center;
     padding: 5px;
-    background-color: #1E90FF;
+    background-color: #00008B;
     color: #fff;
 }
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
