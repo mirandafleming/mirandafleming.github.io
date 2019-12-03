@@ -54,15 +54,11 @@ ul.navbar li a {
 	text-decoration: none		 /* removes underlines from links*/ 
 }
 
-ul.navbar li a:hover, .dropnav:hover .dropbtn {     /* changes color when you hover over it */
-	background-color: lightblue;
-}
-
 .dropnav {    	
 	display: inline-block;
 }  	
 
-.dropnavContent {          /* active if change to li.dropnavContent, but lists links in absolute position */
+.dropnav li {		       /* active if change to li.dropnavContent, but lists links in absolute position */
 	display: none;
 	position: relative;		/* should place drop down content right below button */
 	background-color: lightgreen;
@@ -70,7 +66,7 @@ ul.navbar li a:hover, .dropnav:hover .dropbtn {     /* changes color when you ho
 	z-index: 1;		/* z index specifies stack order of elements, still testing it */
 }
 
-li.dropnavContent a {		/* block not doing anything */
+.dropnav li a {		/* block not doing anything */
 	visibility: hidden;
 	opacity: 0;
 	position: relative; 
@@ -80,7 +76,7 @@ li.dropnavContent a {		/* block not doing anything */
 	display: block;
 } 
 
-li.dropnavContent a:hover {
+.dropnav li a:hover {
 	visibility: visible;
 	opacity: 1;
 	background-color: pink;
