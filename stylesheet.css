@@ -32,28 +32,31 @@
 	
 }
 
-ul.navbar {
+.navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: lightcoral;  /* just using bright colors so I can see what works & doesnt, will change later */
+	background-color: lightblue;  /* just using bright colors so I can see what works & doesnt, will change later */
 	overflow: hidden;
 	position: sticky; 	/* so it'll stay at the top as you scroll */
 	top: 0;
 	width: 100%; 		/* figure out if still need to set width when using sticky */
 }
 
-ul.navbar li {
+.navbar li {
 	float: left;		
 	padding: 10px 15px;
 }
 
-ul.navbar li a {
+.navbar li a {
 	display: inline-block; 		/* makes whole area clickable, not just text & puts them inline */
 	padding: 10px 15px;
 	text-decoration: none		 /* removes underlines from links*/ 
 }
 
+.dropnav {    	
+	display: inline-block;
+}  	
 
 .dropnav li {		       /* active if change to li.dropnavContent, but lists links in absolute position */
 	visibility: hidden;

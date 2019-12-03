@@ -1,1 +1,10 @@
 //Javascript page
+
+
+function myFunction() {
+    document.getElementbyID("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+    if (!event.target.matches(' .dropbtn))
+}
