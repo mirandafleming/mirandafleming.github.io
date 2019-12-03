@@ -36,54 +36,58 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: lightblue;  /* just using bright colors so I can see what works & doesnt, will change later */
+	background-color: lightgray;
 	overflow: hidden;
-	position: sticky; 	/* so it'll stay at the top as you scroll */
+	position: sticky;
 	top: 0;
-	width: 100%; 		/* figure out if still need to set width when using sticky */
+	width: 100%;
 }
 
 .navbar li {
-	float: left;		
+	float: left;
 	padding: 10px 15px;
 }
 
 .navbar li a {
-	display: inline-block; 		/* makes whole area clickable, not just text & puts them inline */
-	padding: 10px 15px;
-	text-decoration: none		 /* removes underlines from links*/ 
-}
-
-.dropnav {    	
 	display: inline-block;
-}  	
-
-.dropnav li {		       /* active if change to li.dropnavContent, but lists links in absolute position */
-	visibility: hidden;
-	opacity: 0;
-	display: none;
-	position: relative;		/* should place drop down content right below button */
-	background-color: lightgreen;
-	width: 100%;
-	z-index: 1;		/* z index specifies stack order of elements, still testing it */
-}
-
-.dropnav li a {		/* block not doing anything */
-	visibility: hidden;
-	opacity: 0;
-	position: relative; 
-	color: blue;
 	padding: 10px 15px;
 	text-decoration: none;
-	display: block;
-} 
-
-.dropnav li a:hover {
-	visibility: visible;
-	opacity: 1;
-	background-color: pink;
-	padding: 10px 15px;
 }
+
+.dropbtn {
+	background-color: lightgreen;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: lightpink;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	color: brown;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: red;
+}
+
+.show {
+	display: block;
+}
+
+
 
 /* ul.dropnav:hover .dropbtn {		/* I think used it twice??
 	background-color: lightgreen;
