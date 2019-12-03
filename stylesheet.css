@@ -315,11 +315,10 @@ mainav form select option{
 
 /* -----------------------------------------------------------*/
 /* footer section */
-#footer {                        
+footer {                        
     display: fixed;
     justify-content: center;
     padding: 5px;
-    margin-top: 20px; /* space between content and footer */
     background-color: #00008B;
     color: #fff;
 }
