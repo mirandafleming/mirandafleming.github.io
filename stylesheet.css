@@ -373,7 +373,7 @@ text-align:center;
 
 	
 /* images for survey part of site By Katelyn Corrigall-Millins */
-.scolumn {
+.survey column {
   float: left;
   width:23%;
   padding: 8px;
@@ -381,7 +381,7 @@ text-align:center;
 }
 
 /* Clear floats after image containers */
-.srow::after {
+.survey row::after {
   content: "";
   clear: both;
   display: inline-block;
