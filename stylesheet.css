@@ -373,7 +373,7 @@ text-align:center;
 }
 
 .survey-text p {
-    text-align: center;
+    text-align: justified;
     font-size: 20px;
     color:black;
     padding: 35px 0 43px;
