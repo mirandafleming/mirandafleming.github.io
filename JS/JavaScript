@@ -1,33 +1,16 @@
 //Javascript page
 
 
+// Navbar - Brooke's section 
+
+// Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
 
-window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn)) {
-    var myDropdown = document.getElementById("myDropdown");
-        if(myDropdown.classList.contains('show')) {
-            myDropdown.classList.remove('show');
-        }
-    }
-}
-
-// Commenting out - trying to figure out which way works best 
-//function myFunction() {
-//    document.getElementById("myDropdown).classList.toggle("show");
-//}
-
-//window.onclick = function(event) {
-//    if (!event.target.matches('.dropbtn')) {
-//        var dropdowns = document.getElementsByClassName("dropdown-content");
-//        var i;
-//        for (i = 0; i < dropdowns.length; i++) {
-//            var openDropdown = dropdowns[i];
-//            if (openDropdown.classList.contains('show')) {
-//                openDropdown.classList.remove('show');
-//            }
-//        }
-//    }
-//}
+// section ends 
