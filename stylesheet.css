@@ -36,7 +36,7 @@
 /* Navbar - Brooke's section */
 /* background color for navbar  */
 .topnav {
-	background-color: rgb(197, 193, 193);
+	background-color: #4A675A;
 	overflow: hidden;
   }
   
@@ -44,7 +44,7 @@
   .topnav a {
 	float: left;
 	display: block;
-	color: white;
+	color: #D8E1D3;
 	text-align: center;
 	padding: 15px 15px;
 	text-decoration: none;
@@ -53,8 +53,8 @@
   
   /* active class highlights current page */
   .active {
-	background-color: lightskyblue;
-	color: white;
+	background-color:rgb(159, 170, 145);
+	color: #D8E1D3;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -73,7 +73,7 @@
 	font-size: 16px;
 	border: none;
 	outline: none;
-	color: white;
+	color: #D8E1D3;
 	padding: 15px 15px;
 	background-color: inherit;
 	margin: 0;
@@ -83,7 +83,7 @@
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #555;
+	background-color: rgb(159, 170, 145);
 	min-width: 160px;
 	z-index: 1;
   }
@@ -91,7 +91,7 @@
   /* Style for links inside dropdown */
   .dropdown-content a {
 	float: none;
-	color: white;
+	color: #D8E1D3;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -100,8 +100,8 @@
   
   /* Add a background color to topnav links & dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
-	background-color: #555;
-	color: white;
+	background-color: rgb(159, 170, 145);
+	color: #D8E1D3;
   }
   
   /* background for dropdownlinks on hover */
