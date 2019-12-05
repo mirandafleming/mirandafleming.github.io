@@ -375,7 +375,7 @@ text-align:center;
 /* images for survey part of site */
 .scolumn {
   float: left;
-  width:23%;
+  width:12%;
   padding: 5px;
 }
 
@@ -386,11 +386,6 @@ text-align:center;
   display: inline-block;
 } 
 
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
 
 /* -----------------------------------------------------------*/
 /* footer section */
