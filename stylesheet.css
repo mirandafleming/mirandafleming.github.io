@@ -29,17 +29,17 @@
 }
   
 .title{
-background-color: #00008B;
+background-color: #4A675A;
 padding:7px;
   text-align:center;
   font-family:Helvetica;
   font-size: large;
-  color: white;
+  color:white;
   stroke: 3px; 
 }
 
 .about-content {padding-top: 100px;
-font-size: 8px;
+font-size: 12px;
 font-family: Helvetica;
 color:black;
 background-color:#e5e5e5;
