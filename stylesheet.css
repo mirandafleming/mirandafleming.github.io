@@ -274,14 +274,14 @@
 
 /* Surveying Page Layout by katelyn Corrigall-Millins; December 4th, 2019 */
  /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+.scolumn {
   float: left;
   width: 50%;
   padding: 5px;
 }
 
 /* Clear floats after image containers */
-.row::after {
+.srow::after {
   content: "";
   clear: both;
   display: table;
