@@ -372,8 +372,8 @@ text-align:center;
     -webkit-text-stroke-color: black;
     
 }
-
-.survey-text p {padding-top: 100px;
+.survey-text {
+	padding-top: 100px;
 	font-size: 18px;
 	font-family: Helvetica;
 	color:black;
