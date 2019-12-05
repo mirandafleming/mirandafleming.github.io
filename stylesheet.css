@@ -343,7 +343,7 @@ text-align:center;
 /* Surveying Page Layout by katelyn Corrigall-Millins; December 4th, 2019 */
  /* Tensure to use 23% for images */
 
-.survey {padding: 50px 0 100px;}
+.surveyhead {padding: 50px 0 100px;}
 
 
 .survey-text h2 {
@@ -373,7 +373,7 @@ text-align:center;
 
 	
 /* images for survey part of site By Katelyn Corrigall-Millins */
-.survey column {
+.survey-pic column {
   float: left;
   width:23%;
   padding: 8px;
@@ -381,7 +381,7 @@ text-align:center;
 }
 
 /* Clear floats after image containers */
-.survey row::after {
+.survey-pic row::after {
   content: "";
   clear: both;
   display: inline-block;
