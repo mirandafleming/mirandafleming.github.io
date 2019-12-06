@@ -1,35 +1,96 @@
-<!-- index/main page -->
-<!-- Base responsive layout from W3Schools https://www.w3schools.com/html/html_responsive.asp -->
-<!-- Linking javascript to a main page -->
-    <!-- https://medium.com/better-programming/link-css-and-js-files-with-html-file-f848d00b42e8 -->
-
-
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- For viewport I believe we have to add things into other sections regarding phones and other devices but I could be wrong-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-!-- Linking stylesheet to main page--! 
-<link rel="stylesheet" type="text/css" href="PATHTOCSSHERE"> !-- to link our css style sheet into main page--!
+
+<!-- Remote Sensing page -->
+<!-- Base responsive layout from W3Schools https://www.w3schools.com/html/html_responsive.asp -->
+<!-- Linking javascript to a main page -->
+	<!-- https://medium.com/better-programming/link-css-and-js-files-with-html-file-f848d00b42e8 -->
+	
+
+<!-- Linking stylesheet to main page-->
+<link rel="stylesheet" type="text/css" href="stylesheet.css"> <!-- to link our css style sheet into main page-->
 
 </head>
+    
 <body>
-<div class="picturesurv">
-
-
-  <div class="main">
-    <h2>Lorum Ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  </div>
-
-  <div class="right">
-    <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-  </div>
-</div>
-
+ <div class="picturesurv">
+	<div class="wrapper row0">
+		<div class= "title">
+			<h1>NKBM CONSULTING</h1>
+		</div>
+ <!--- Navbar - Brooke's section -->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">What We Do
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Surveying.html">Surveying</a>
+        <a href="GIS.html">GIS</a>
+        <a href="RemoteSensing.html" class="active">Remote Sensing</a>
+      </div>
     </div>
-<footer class="footer"> Copyright @2019; Fleming College WebDesign </footer>
+    <div class="dropdown">
+      <button class="dropbtn">About Us
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="History.html">History</a>
+        <a href="MeetTheTeam.html">Meet the team</a>
+      </div>
+    </div>
+    <a href="gallery.html">Map Gallery</a>
+    <a href="Contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+<!-- navbar section ends -->
 
-</body>
+<!--
+	about start copied from browny https://onepagelove.com/browny
+	<div>											 
+		<section>		     
+			<div class="remoteText">
+				<h2 class = "remoteh2"> Remote Sensing: Diverse and Dynamic Analysis  </h2>
+				<p>Remote sensing is a vast and varying field with numerous applications. 
+					The growing availability of free, high quality, imagery means we can offer low rates for our services.  
+					We at NKBM Consulting pride ourselves in offering a wide variety of services.
+				</p>
+
+
+
+			 <h2 class = "remoteh2">We Offer: </h2>
+
+			 <dl>
+				 <dt>Vegetation Health for Agriculture</dt>
+				 <dt>Vegetation Height Analysis for Forestry</dt>
+				 <dt>Mineral Deposit Mapping</dt>
+				 <dt>Soil Moisture Mapping</dt>
+				 <dt>And Much More...</dt>										 
+			 </dl> 
+			</div>
+
+
+		  <div class="remoteCol">
+			 <div class="remotePic">
+				 <img src = "Pictures/FalseColour.jpg" alt="False colour composite image" class="responsive">
+			 </div>
+			 <div class="remotePic">
+			     <img src = "Pictures/Filtering.jpg" alt="Filtered radar image" class="responsive">  
+			 </div>
+			 <div class="remotePic">
+				 <img src = "Pictures/FilterProfile.jpg" alt="Profile of filtered radar image" class="responsive">
+			 </div>
+	      </div>
+ -->
+		</section>
+	</div>
+	</div>	
+<footer class ="footer">
+		       <p> Copyright 2019; Fleming College GEOM101 attempt 2, 3,4,5,6</p> </footer>
+
 </html>
