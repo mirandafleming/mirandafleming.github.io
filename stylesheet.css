@@ -542,14 +542,40 @@ body {
 	border: 3px solid lightgray;
 	margin-bottom: 20px;
 	padding: 5px;
+	box-sizing: border-box;
 }
 
 .gallery img {
-	width: 50%;
+	width: 100%;
 	height: auto;
 }
 
 .photoDesc {
 	text-align: center;
 	padding: 15px;
+}
+
+.galleryResponsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.999%;
+}
+
+@media only screen and (max-width: 700px) {
+	.galleryResponsive {
+		width: 49.999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.galleryResponsive {
+		width: 100%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
 }
