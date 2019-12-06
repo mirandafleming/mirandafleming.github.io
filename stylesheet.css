@@ -402,7 +402,7 @@ text-align:center;
 
 /* -----------------------------------------------------------*/
 /* footer section Katelyn Corrigall-Millins; sticky footer mixture from w3schools, https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript */ 
-.contentsurv {
+.picturessurv {
 	min-height: calc(100vh - 70px);
 }
 .footer {
