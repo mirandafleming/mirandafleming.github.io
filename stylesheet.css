@@ -368,7 +368,7 @@ text-align:center;
   float: left;
   width:23%;
   padding: 8px;
-  height: 350;
+  height: 350%;
 }
 
 /* Clear floats after image containers */
@@ -380,10 +380,9 @@ text-align:center;
 
 /* contact us page; Katelyn Corrigall-Millins */
 .contact-pic column {
-  float: center;
   width:50%;
   padding: 8px;
-  height: 350;
+  height: 350%;
   font-size: 18px;
   font-family: Helvetica;
   color:black;
@@ -402,8 +401,16 @@ text-align:center;
 
 
 /* -----------------------------------------------------------*/
-/* footer section */
-/* remove for now */
+/* footer section Katelyn Corrigall-Millins; sticky footer mixture from w3schools, https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript */ 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4A675A;
+  color: white;
+  text-align: center;
+}
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
 
 
