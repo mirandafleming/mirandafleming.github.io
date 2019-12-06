@@ -384,9 +384,12 @@ text-align:center;
 /*---------------------------- contact us page; Katelyn Corrigall-Millins----------------------------------------- */
 /* ---------------- altered design of what was done above, no external sources used aside from html/css validator */
 .contact-pic column {
-  width:50%;
+  width:959px;
   padding: 8px;
-  height: 350%;
+  height: 500%;
+  margin: 110px auto;
+}
+	
   font-size: 18px;
   font-family: Helvetica;
   color:black;
@@ -606,7 +609,7 @@ color:black;
 	letter-spacing: 7px;
 	text-align: center;
 	font-size: 30px;
-	color: #4A675A
+	color: #4A675A;
 }
 
 .galleryWrapper {
@@ -636,14 +639,15 @@ color:black;
 
 .galleryOverlay {
 	opacity: 0;
+	background-color:lightgray;
 	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 10px;
 	height: 90%;
-	color: lightgray;
-	transition: all 0.9s ease;
+	color: #4A675A;
+	transition: all 0.3s ease;
 }
 	/*p {
 		transition: all 0.9s ease;
@@ -652,7 +656,7 @@ color:black;
 
 
 .galleryOverlay p {
-	transition: all 0.9s ease;
+	transition: all 0.5s ease;
 	transform: scale(0.1);
 	text-align: center;
 	letter-spacing: 1px;
@@ -661,12 +665,12 @@ color:black;
 .galleryMaps:hover .galleryOverlay {
 	opacity: 0.8;
 	width: 90px;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 
 .galleryMaps p:hover .galleryOverlay p {
 	transform: scale(1);
-	transition: all 0.9s ease;
+	transition: all 0.5s ease;
 }
 
 @media (max-width: 800px) {
