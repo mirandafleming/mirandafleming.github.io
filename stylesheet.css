@@ -364,6 +364,14 @@ text-align:center;
 	padding:15px;
 	text-align:center;
 }
+.containerpictures {
+	font-size: 18px;
+	font-family: Helvetica;
+	color:black;
+	background-color:#e5e5e5;
+	padding:15px;
+	text-align:center;
+}
 
 /* images for survey part of site By Katelyn Corrigall-Millins; pictures original from the summer; column help by Nick O'hanley */
 .survey-pic column {
