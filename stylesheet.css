@@ -439,8 +439,12 @@ h1, h2 {
 
 p {
 	padding: 2px 10px 10px;
+}
 
 .GISbody img {
 	float: left;
 	max-width: 100%; 
+	outline-style: double;
+	outline-color: grey;
+	padding: 10px;
 }
