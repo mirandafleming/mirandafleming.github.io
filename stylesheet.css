@@ -112,7 +112,7 @@ text-align:center;
 
 
 
-/* Navbar - Brooke's section */
+/* --------- Navbar - Brooke's section --------- */
 /* background color for navbar  */
 .topnav {
 	background-color: #4A675A;
@@ -227,7 +227,7 @@ text-align:center;
 	}
   }
 
-  /* section ends */
+  /* ----------------  section ends ----------------- */
 
 
 /*style form from heading*/
@@ -355,19 +355,12 @@ text-align:center;
 }
     
 .survey-text {
-	padding-top: 100px;
 	font-size: 18px;
 	font-family: Helvetica;
 	color:black;
 	background-color:#e5e5e5;
 	padding:15px;
 	text-align:center;
-	border: 2px solid;
-    	margin-left: 20px;
-    	border-radius: 8px;
-    	width: 30px;
-   	 height: 30px;
-    	line-height: 28px;
 }
 
 /* images for survey part of site By Katelyn Corrigall-Millins */
@@ -384,6 +377,29 @@ text-align:center;
   clear: both;
   display: inline-block;
 } 
+
+/* contact us page; Katelyn Corrigall-Millins */
+.contact-pic column {
+  float: center;
+  width:50%;
+  padding: 8px;
+  height: 350;
+  font-size: 18px;
+  font-family: Helvetica;
+  color:black;
+  background-color:#e5e5e5;
+  padding:15px;
+  text-align:center;
+}
+
+/* Clear floats after image containers */
+.contact-pic row::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+} 
+
+
 
 /* -----------------------------------------------------------*/
 /* footer section */
@@ -416,3 +432,35 @@ text-align:center;
 }
 
 
+
+/* ---------- what we do > GIS page - by Brooke ----------- */
+
+/* image placement & responsive */
+
+.CartBody {
+	border: 2px solid grey;
+	border-radius: 5px;
+	background-color: lightgray;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+h1, h2 {
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+p {
+	padding: 2px 10px 10px;
+	word-spacing: 3px;
+}
+
+.GISbody img {
+	float: left;
+	max-width: 100%; 
+	outline-style: double;
+	outline-color: grey;
+	padding: 10px;
+}
