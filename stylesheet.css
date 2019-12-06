@@ -536,7 +536,7 @@ color:black;
 
 /* ---------- what we do > GIS page - by Brooke ----------- */
 
-.header {
+.GISheader {
 	background-color: lightgrey;
 	margin: 15px 5px;
 	padding: 10px;
@@ -544,62 +544,29 @@ color:black;
 	color: #4A675A;
 }
 
-.header h1 {
+.GISheader h1 {
 	letter-spacing: 7px;
 	text-align: center;
 	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.GIS row {
+.GIScontent {
 	display: block;
 	text-align: left;
 	padding: 10px 0px;
 	background: white;
-	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.GIS row p {
-	text-align: left;
-	float: center;
-	padding: 10px 0px;
-}
-
-.first column {
-	float: right;
-	padding-left: 20px;
-	list-style-type:  none;
-}
-
-.second column {
-	clear: none;
-}
-
-.third column {
-	float: left;
-}
-
-.first column, .second column, .third column {
-	width: 33.333%;
+.GIScontent ul {
 	list-style-type: none;
 	text-align: center;
-	margin: 10px;
-	padding: 5px 37px;
 }
 
-/*.GIS row:after {
-	content: "";
-	display: table;
-	clear: both;
-} 
 
-@media screen and (max-width: 800px) {
-	.first column, .second column, .third column {
-		width: 100%;
-		padding: 0;
-	}
-}
 
-/* ------- section ends ------- */
+/* ------- GIS page section ends ------- */
 
 /* ---- Map Gallery - by Brooke ---- */
 
@@ -610,10 +577,11 @@ color:black;
 }
 
 .galleryHeader h1 {
-	letter-spacing: 7px;
+	letter-spacing: 6px;
 	text-align: center;
 	font-size: 30px;
 	color: #4A675A;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .galleryWrapper {
@@ -628,14 +596,14 @@ color:black;
 }
 
 .galleryMaps {
-	/* width: 300px;
+	width: 300px;
 	height: 200px;
 	overflow: hidden;
 	position: relative;
 	display: flex;
+	flex: 1;
 	justify-content: center;
-	align-items: center; */
-	flex-basis: 20%;
+	align-items: center;
 	width: 100%;
 	padding: 5px;
 	margin: 5px;
@@ -644,44 +612,50 @@ color:black;
 .galleryMaps img { 
 	max-width: 100%;
 	height: auto;
+	object-position: 5px 10%;
 }
+
+/* Inspiration  & source:https://codepen.io/sashatran/pen/aJvaEG */ 
 
 .galleryOverlay {
 	opacity: 0;
+	display: flex;
 	background-color:lightgray;
 	position: absolute;
-	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: inherit;
-	height: inherit;
 	color: #4A675A;
 	transition: all 0.3s ease;
+	width: 300px;
+	height: 200px;
 }
-	/*p {
-		transition: all 0.9s ease;
-		transform: scale(0.1);
-	} */
 
 
 .galleryOverlay p {
-	transition: all 0.5s ease;
-	transform: scale(0.1);
-	text-align: center;
-	letter-spacing: 1px;
+	display: flex;
+	justify-content: center;
+	transition: all 0.3s ease;
+	transform: scale(0.65);
+	flex-direction: column;
+	flex-basis: 80%;
+
 }
 
 .galleryMaps:hover .galleryOverlay {
-	opacity: 0.75;
-	width: inherit;
+	flex: 1;
+	opacity: 0.80;
+	width: 15%;
 	transition: all 0.3s ease;
+	z-index: 1;
+	width: 300px;
+	height: 200px;
 }
 
-.galleryMaps p:hover .galleryOverlay p {
+/* .galleryMaps p:hover .galleryOverlay p {
 	transform: scale(1);
 	transition: all 0.5s ease;
-}
-
+} */
+ /* Responsive design  */
 @media (max-width: 800px) {
 	.galleryWrapper {
 		transform: scale(0.6);
