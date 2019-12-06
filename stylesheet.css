@@ -35,7 +35,6 @@ padding:7px;
   font-family:Helvetica;
   font-size: large;
   color:white;
-  stroke: 3px; 
 }
 
 .about-content {padding-top: 100px;
@@ -56,7 +55,7 @@ text-align:center;
   float: left;
   width: 23%;
   padding: 10px;
-  height: 300px;
+  /* height: 300px; */
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -340,11 +339,9 @@ text-align:center;
 /*--------------------------------------------------------------*/
 
 
-/* Surveying Page Layout by katelyn Corrigall-Millins; December 4th, 2019 */
- /* Tensure to use 23% for images */
+/* ----------------------Surveying Page Layout by katelyn Corrigall-Millins; December 4th, 2019------------------------- */
 
 .surveyhead {padding: 50px 0 100px;}
-
 
 .survey-text h2 {
     font-size: 25px;
@@ -363,12 +360,13 @@ text-align:center;
 	text-align:center;
 }
 
-/* images for survey part of site By Katelyn Corrigall-Millins */
+/* images for survey part of site By Katelyn Corrigall-Millins; pictures original from the summer; column help by Nick O'hanley */
 .survey-pic column {
   float: left;
   width:23%;
   padding: 8px;
   height: 350%;
+  padding:15px;
 }
 
 /* Clear floats after image containers */
@@ -378,7 +376,8 @@ text-align:center;
   display: inline-block;
 } 
 
-/* contact us page; Katelyn Corrigall-Millins */
+/*---------------------------- contact us page; Katelyn Corrigall-Millins----------------------------------------- */
+/* ---------------- altered design of what was done above, no external sources used aside from html/css validator */
 .contact-pic column {
   width:50%;
   padding: 8px;
@@ -390,8 +389,6 @@ text-align:center;
   padding:15px;
   text-align:center;
 }
-
-/* Clear floats after image containers */
 .contact-pic row::after {
   content: "";
   clear: both;
@@ -401,18 +398,29 @@ text-align:center;
 
 
 /* -----------------------------------------------------------*/
-/* footer section Katelyn Corrigall-Millins; sticky footer mixture from w3schools, https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript */ 
+/* footer section Katelyn Corrigall-Millins; 
+footer mixture from w3schools, 
+https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,
+https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript, 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/ 
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.picturesurv {
+  flex: 1 0 auto;
+}
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  flex-shrink: 0;
+ font-family: Helvetica;  
   background-color: #4A675A;
   color: white;
-  text-align: center;
+  text-align: center; 
 }
-/*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
-
 
 /*--------- Remote Sensing page layout - Miranda Gilliland ----------*/
 
@@ -422,20 +430,38 @@ text-align:center;
   column-span: 1;
 }
 
+.remoteDesc {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75vw;
+  color:black;
+}
+
 .remoteCol {
   column-count: 3;
   column-width: 30%;
-  column-rule-style: dotted;
+}
 
+.remoteh2 {
+  font-size: 1.25vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  text-align: center;
 }
 
 .remoteText {
   display: block;
-  max-width: 1000px;
-  max-height: 500px;
-  text-align: justify;
+  max-width: 85%;
+  max-height: 60%;
+  text-align: center;
   margin: auto;
-
+  margin-top: 1%;
+  margin-bottom: 1%;
+	font-size: 0.95vw;
+	font-family: Helvetica, Arial, sans-serif;
+  color:black;
+  border-style: groove;
+  border-width: 3px;
+	border-color:#e5e5e5;
 }
 /*--------- Remote Sensing End ----------*/
 
@@ -477,13 +503,18 @@ text-align:center;
 	word-spacing: 3px;
 }
 
-/* .CartPage img {
+.CartPage img {
 	float: center;
 	max-width: 50%;
 	margin: auto; 
 	outline-style: double;
 	outline-color: grey;
+<<<<<<< HEAD
 } 
+=======
+}
+
+>>>>>>> eabc2a34c966f02cc0f05c9bbfbe9be61b2ac7a2
 
 .CartMap column {
 	float: left;

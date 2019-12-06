@@ -1,2 +1,76 @@
-<h1> History </h1>
-<p> idkkkk <p>
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- For viewport I believe we have to add things into other sections regarding phones and other devices but I could be wrong-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Miranda VS Code Test Nov 26, 2019-->
+
+<!-- index/main page -->
+<!-- Base responsive layout from W3Schools https://www.w3schools.com/html/html_responsive.asp -->
+<!-- Linking javascript to a main page -->
+	<!-- https://medium.com/better-programming/link-css-and-js-files-with-html-file-f848d00b42e8 -->
+	
+<!--Try2-->	
+
+<!-- Linking stylesheet to main page-->
+<link rel="stylesheet" type="text/css" href="stylesheet.css"> <!-- to link our css style sheet into main page-->
+
+</head>
+    
+<body>
+
+<div class="wrapper row0">
+	<div class= "title">
+		<h1>NKBM CONSULTING</h1>
+	</div>
+
+	<!--- Navbar - Brooke's section -->
+	<div class="topnav" id="myTopnav">
+			<a href="index.html class="active">Home</a>
+			<div class="dropdown">
+			  <button class="dropbtn">What We Do
+				<i class="fa fa-caret-down"></i>
+			  </button>
+			  <div class="dropdown-content">
+				<a href="Surveying.html">Surveying</a>
+				<a href="Cartography.html">Cartography</a>
+				<a href="RemoteSensing.html">Remote Sensing</a>
+			  </div>
+			</div>
+			<div class="dropdown">
+					<button class="dropbtn">About Us
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="History.html">History</a>
+					  <a href="MeetTheTeam.html">Meet the team</a>
+					</div>
+			</div>
+			<a href="Projects.html">Projects</a>
+			<a href="Contact.html">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		  </div>
+	<!--- navbar section ends -->
+</div>	
+<!-- contact us page by Katelyn Corrigall-Millins, inspiriation for code from https://www.forteconsulting.ca/-->
+<div class ="picturesurv">
+	<div class= "contact-pic row">
+		<div class= "contact-pic column">
+			<img src = "Pictures/buisnessfront.jpg" alt="Buisness Front" style=width "100%" class="responsive">
+		</div>
+		<div class="contact-pic column">
+			<h3> Contact Us: </h3>
+			<address>
+				<a href="mailto:GISRox@Flemingcollege.ca">GISRox@flemingcollege.ca</a><br>
+				<a href="tel:+15555555555">(311) 555-5555</a>
+			</address> 
+			<p> Due to ongoing renovations we currently lack a physical facility, therefore we will be forced to close due to structural renovations of this lovely historic home in the GTA </p>	       
+		</div>												  
+	</div>
+</body>
+<footer class ="footer">
+		       <p> Copyright 2019; Fleming College GEOM101 attempt 2, 3</p> </footer>
+</div>
+</div>
+</html>
