@@ -557,6 +557,12 @@ color:black;
 	list-style-type: none;
 }
 
+.GIS row p {
+	text-align: left;
+	float: center;
+	padding: 10px 0px;
+}
+
 .first column {
 	float: right;
 	padding-left: 20px;
@@ -572,21 +578,21 @@ color:black;
 }
 
 .first column, .second column, .third column {
-	width: 33%;
+	width: 33.333%;
 	list-style-type: none;
 	text-align: center;
 	margin: 10px;
 	padding: 5px 37px;
 }
 
-.cart row:after {
+/*.GIS row:after {
 	content: "";
 	display: table;
 	clear: both;
-}
+} 
 
 @media screen and (max-width: 800px) {
-	.rightcolumn, .leftcolumn {
+	.first column, .second column, .third column {
 		width: 100%;
 		padding: 0;
 	}
