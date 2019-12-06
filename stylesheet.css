@@ -436,7 +436,7 @@ body {
 .remotePic {
   max-width: 95%;
   margin: auto;
-  column-span: 1;
+  column-span: none;
 }
 
 .remoteDesc {
@@ -447,7 +447,7 @@ body {
 
 .remoteCol {
   column-count: 3;
-  column-width: 30%;
+  column-width: 30vw;
   margin-bottom: 3%;
 }
 
