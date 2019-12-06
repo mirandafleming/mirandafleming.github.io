@@ -562,8 +562,6 @@ body {
 	background-color: lightgray;
 	margin: 15px 5px;
 	padding: 10px;
-	text-align: center;
-	color: #4A675A;
 }
 
 .galleryHeader h1 {
@@ -605,11 +603,11 @@ body {
 	height: 90%;
 	color: lightgray;
 	transition: all 0.9s ease;
+}
 	/*p {
 		transition: all 0.9s ease;
 		transform: scale(0.1);
 	} */
-}
 
 .galleryOverlay h3, .galleryOverlay p {
 	transition: all 0.9s ease;
