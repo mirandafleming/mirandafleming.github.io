@@ -402,19 +402,14 @@ text-align:center;
 
 /* -----------------------------------------------------------*/
 /* footer section Katelyn Corrigall-Millins; sticky footer mixture from w3schools, https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript */ 
+.contentsurv {
+	min-height: calc(100vh - 70px);
+}
 .footer {
-  position: absolute, bottom:0px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 50%;
-  width: 100%;
-   margin-bottom: 0px;
+  height: 50px;
   font-family: Helvetica;  
   background-color: #4A675A;
-  text-align: center;
- 
-  
+  text-align: center; 
 }
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
 
