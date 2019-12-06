@@ -440,10 +440,10 @@ text-align:center;
 
 /* image placement & responsive */
 
-.CartPage {
+/* .CartPage {
 	border: 2px solid grey;
 	border-radius: 5px;
-}
+} */
 
 .CartTopSec {
 	background-color: lightgrey;
@@ -457,22 +457,42 @@ text-align:center;
 	letter-spacing: 7px;
 }
 
-.CartPage h1, h2 {
+.CartMaps h1, h2 {
 	text-align: center;
 	letter-spacing: 5px;
 }
 
-.CartPage p {
-	display: left;
+.CartText column {
+	float: right;
+	text-align: left;
 	position: relative;
 	padding: 2px 10px 10px;
 	word-spacing: 3px;
 }
 
 .CartPage img {
-	float: right;
+	float: center;
 	max-width: 50%;
 	margin: auto; 
 	outline-style: double;
 	outline-color: grey;
 }
+
+
+.CartMap column {
+	float: left;
+	max-width:50%;
+	background-color:#e5e5e5;
+	margin: auto; 
+	outline-style: double;
+	outline-color: grey;
+  }
+  
+  /* 
+  .contact-pic row::after {
+	content: "";
+	clear: both;
+	display: inline-block;
+  } */
+
+
