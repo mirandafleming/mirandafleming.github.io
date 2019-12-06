@@ -111,122 +111,128 @@ text-align:center;
 
 
 
-/* --------- Navbar - Brooke's section --------- */
+/*  Navigation bar - Brooke's section  */
+
 /* background color for navbar  */
-.topnav {
+.navbar, .topnav {
 	background-color: #4A675A;
 	overflow: hidden;
-  }
+}
   
   /* Style for navbar links */
-  .topnav a {
+.navbar a, .topnav a {
 	float: left;
 	display: block;
-	color: #D8E1D3;
+	color: whitesmoke;
 	text-align: center;
 	padding: 15px;
 	text-decoration: none;
 	font-size: 16px;
-  }
+}
   
   /* active class highlights current page */
-  .active {
+.active {
 	background-color:rgb(159, 170, 145);
-	color: #D8E1D3;
-  }
+	color: whitesmoke;
+}
   
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+  /* Hide the link that opens & closes the nav bar on small screens */
+.navbar .icon, .topnav .icon {
 	display: none;
-  }
+}
   
   /* Dropdown container - positions dropdown content */
-  .dropdown {
+.dropdown {
 	float: left;
 	overflow: hidden;
-  }
+}
   
   /* Style for dropdown button  */
-  .dropdown .dropbtn {
+.dropdown .dropbtn {
 	font-size: 16px;
 	border: none;
 	outline: none;
-	color: #D8E1D3;
-	padding: 15px 15px;
+	color: whitesmoke;
+	padding: 15px;
 	background-color: inherit;
 	margin: 0;
 	font-size: inherit;
-  }
+	min-width: 120px;
+}
   
-  /* Style for dropdown content */
-  .dropdown-content {
+  /* Style for dropdown content & hide it */
+.dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: rgb(159, 170, 145);
-	min-width: 160px;
+	min-width: 110px;
 	z-index: 1;
-  }
+}
   
   /* Style for links inside dropdown */
-  .dropdown-content a {
+.dropdown-content a {
 	float: none;
-	color: lightgray;
+	color: whitesmoke;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 	text-align: left;
 	font-size: inherit;
-  }
+}
   
-  /* Add a background color to topnav links & dropdown button on hover */
-  .topnav a:hover, .dropdown:hover .dropbtn {
+/* Add a background color to nav bar links & dropdown button on hover */
+.navbar a:hover, .topnav a:hover, .dropdown:hover .dropbtn {
 	background-color:  rgb(159, 170, 145);
-	color: lightgray;
-  }
+	color: whitesmoke;
+}
   
-  /* background for dropdownlinks on hover */
-  .dropdown-content a:hover {
+/* background for dropdownlinks on hover */
+.dropdown-content a:hover {
 	background-color: #ddd;
 	color: black;
-  }
+}
   
-  /* show dropdown-content on hover */
-  .dropdown:hover .dropdown-content {
+/* show dropdown-content on hover */
+.dropdown:hover .dropdown-content {
 	display: block;
-  }
+}
   
-  /* responsive design - hide links when screen width is less than 600px, only show Home & link to open/close the rest of the links */
+/* responsive design - hide links when screen width is less than 600px, only show Home & link to open/close the rest of the links */
+/* source:  https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
   @media screen and (max-width: 600px) {
-	.topnav a:not(:first-child), .dropdown .dropbtn {
-	  display: none;
-	}
-	.topnav a.icon {
+	.navbar a:not(:first-child), .dropdown .dropbtn {
+		display: none;
+}
+	
+.navbar a.icon {
 	  float: right;
 	  display: block;
 	}
-  }
+}
   
-  /* responsive design - added to the navbar with JavaScript when icon is clicked, displays vertically instead of horizontally */
-  @media screen and (max-width: 600px) {
-	.topnav.responsive {position: relative;}
-	.topnav.responsive a.icon {
-	  position: absolute;
-	  right: 0;
-	  top: 0;
+  /* responsive design - added to the navbar with JavaScript - when icon is clicked, displays vertically */
+@media screen and (max-width: 600px) {
+	.navbar.responsive {position: relative;}
+	.navbar.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+}
+
+.navbar.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+}
+	
+.navbar.responsive .dropdown {float: none;}
+.navbar.responsive .dropdown-content {position: relative;}
+.navbar.responsive .dropdown .dropbtn {
+	display: block;
+	width: 100%;
+	text-align: left;
 	}
-	.topnav.responsive a {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	}
-	.topnav.responsive .dropdown {float: none;}
-	.topnav.responsive .dropdown-content {position: relative;}
-	.topnav.responsive .dropdown .dropbtn {
-	  display: block;
-	  width: 100%;
-	  text-align: left;
-	}
-  }
+}
 
   /* ----------------  section ends ----------------- */
 
@@ -543,19 +549,129 @@ body {
 
 /* ---- Map Gallery - by Brooke ---- */
 
+.gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	overflow: hidden;
+}
 
-.photoFrame {
+.galleryHeader {
+	background-color: lightgray;
+	margin: 15px 5px;
+	padding: 10px;
+	text-align: center;
+	color: #4A675A;
+}
+
+.galleryHeader h1 {
+	letter-spacing: 7px;
+	text-align: center;
+	font-size: 30px;
+	color: #4A675A
+}
+
+.galleryWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.galleryMaps {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.gallery img { 
+	max-width: 100%;
+	height: auto;
+}
+
+.galleryOverlay {
+	opacity: 0;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10px;
+	height: 90%;
+	color: lightgray;
+	transition: all 0.9s ease;
+	/*p {
+		transition: all 0.9s ease;
+		transform: scale(0.1);
+	} */
+}
+
+.galleryOverlay h3, .galleryOverlay p {
+	transition: all 0.9s ease;
+	transform: scale(0.1);
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.galleryMaps:hover .galleryOverlay {
+	opacity: 0.8;
+	width: 90px;
+	transition: all 0.5 ease;
+}
+
+.galleryMaps:hover .galleryOverlay p .galleryoverlay h3 {
+	transform: scale(1);
+	transition: all 0.9s ease;
+}
+
+@media (max-width: 800px) {
+	galleryWrapper {
+		transform: scale(0.6);
+	}
+}
+
+@media (max-width: 600px) {
+	.galleryWrapper {
+		display: block;
+		margin: 10px;
+	}
+}
+
+
+
+
+/* .photoFrame {
+	display: inline-block;
 	width: 80%;
 	background-color: white;
 	border: 3px solid lightgray;
 	margin-bottom: 20px;
 	padding: 5px;
-	box-sizing: border-box;
 }
 
 .gallery img {
 	width: 100%;
 	height: auto;
+} */
+
+/* .gallery column {
+	float: left;
+	width: 33%;
+	padding: 8px;
+	height: 350%;
+	padding: 15px;
+}
+
+ clear floats after image containers 
+.gallery row::after {
+	content: "";
+	clear: both;
+	display: inline-block;
 }
 
 .photoDesc {
@@ -586,4 +702,4 @@ body {
 	content: "";
 	display: table;
 	clear: both;
-}
+} */
