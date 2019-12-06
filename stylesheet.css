@@ -549,6 +549,96 @@ body {
 
 /* ---- Map Gallery - by Brooke ---- */
 
+.galleryHeader {
+	background-color: lightgray;
+	margin: 15px 5px;
+	padding: 10px;
+	text-align: center;
+	color: #4A675A;
+}
+
+.galleryHeader h1 {
+	letter-spacing: 7px;
+	text-align: center;
+	font-size: 30px;
+	color: #4A675A
+}
+
+.galleryWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.galleryMaps {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.galleryMaps img { 
+	max-width: 100%;
+	height: auto;
+}
+
+.galleryOverlay {
+	opacity: 0;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10px;
+	height: 90%;
+	color: lightgray;
+	transition: all 0.9s ease;
+	/*p {
+		transition: all 0.9s ease;
+		transform: scale(0.1);
+	} */
+
+}
+
+.galleryOverlay p {
+	transition: all 0.9s ease;
+	transform: scale(0.1);
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.galleryMaps:hover .galleryOverlay {
+	opacity: 0.8;
+	width: 90px;
+	transition: all 0.5 ease;
+}
+
+.galleryMaps p:hover .galleryOverlay p {
+	transform: scale(1);
+	transition: all 0.9s ease;
+}
+
+@media (max-width: 800px) {
+	galleryWrapper {
+		transform: scale(0.6);
+	}
+}
+
+@media (max-width: 600px) {
+	.galleryWrapper {
+		display: block;
+		margin: 10px;
+	}
+}
+
+
+
 
 /* .photoFrame {
 	display: inline-block;
@@ -564,7 +654,7 @@ body {
 	height: auto;
 } */
 
-.gallery column {
+/* .gallery column {
 	float: left;
 	width: 33%;
 	padding: 8px;
@@ -572,7 +662,7 @@ body {
 	padding: 15px;
 }
 
-/* clear floats after image containers */
+ clear floats after image containers 
 .gallery row::after {
 	content: "";
 	clear: both;
@@ -607,4 +697,4 @@ body {
 	content: "";
 	display: table;
 	clear: both;
-}
+} */
