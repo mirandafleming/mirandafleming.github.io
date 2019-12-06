@@ -340,11 +340,9 @@ text-align:center;
 /*--------------------------------------------------------------*/
 
 
-/* Surveying Page Layout by katelyn Corrigall-Millins; December 4th, 2019 */
- /* Tensure to use 23% for images */
+/* ----------------------Surveying Page Layout by katelyn Corrigall-Millins; December 4th, 2019------------------------- */
 
 .surveyhead {padding: 50px 0 100px;}
-
 
 .survey-text h2 {
     font-size: 25px;
@@ -363,7 +361,7 @@ text-align:center;
 	text-align:center;
 }
 
-/* images for survey part of site By Katelyn Corrigall-Millins */
+/* images for survey part of site By Katelyn Corrigall-Millins; pictures original from the summer; column help by Nick O'hanley */
 .survey-pic column {
   float: left;
   width:23%;
@@ -378,7 +376,8 @@ text-align:center;
   display: inline-block;
 } 
 
-/* contact us page; Katelyn Corrigall-Millins */
+/*---------------------------- contact us page; Katelyn Corrigall-Millins----------------------------------------- */
+/* ---------------- altered design of what was done above, no external sources used aside from html/css validator */
 .contact-pic column {
   width:50%;
   padding: 8px;
@@ -390,8 +389,6 @@ text-align:center;
   padding:15px;
   text-align:center;
 }
-
-/* Clear floats after image containers */
 .contact-pic row::after {
   content: "";
   clear: both;
@@ -401,7 +398,11 @@ text-align:center;
 
 
 /* -----------------------------------------------------------*/
-/* footer section Katelyn Corrigall-Millins; sticky footer mixture from w3schools, https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript */ 
+/* footer section Katelyn Corrigall-Millins; 
+footer mixture from w3schools, 
+https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,
+https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript, 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/ 
 
 html, body {
   height: 100%;
@@ -420,9 +421,6 @@ body {
   color: white;
   text-align: center; 
 }
-
-/*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
-
 
 /*--------- Remote Sensing page layout - Miranda Gilliland ----------*/
 
