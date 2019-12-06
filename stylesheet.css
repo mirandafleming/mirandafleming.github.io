@@ -391,6 +391,13 @@ text-align:center;
 
 /*---------------------------- contact us page; Katelyn Corrigall-Millins----------------------------------------- */
 /* ---------------- altered design of what was done above, no external sources used aside from html/css validator */
+.contactpictures {
+  font-family: Helvetica;
+  color:black;
+  background-color:#e5e5e5;
+  padding:15px;
+  text-align:center;
+}
 .contact-pic column {
   padding: 8px;
   width: 100%;
@@ -408,13 +415,6 @@ text-align:center;
   display: inline-block;
 } 
 
-.contactpictures {
-  font-family: Helvetica;
-  color:black;
-  background-color:#e5e5e5;
-  padding:15px;
-  text-align:center;
-}
 /* -----------------------------------------------------------*/
 /* footer section Katelyn Corrigall-Millins; 
 footer mixture from w3schools,
