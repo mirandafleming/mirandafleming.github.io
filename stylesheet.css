@@ -425,12 +425,18 @@ text-align:center;
 	background-color: lightgray;
 }
 
+h1 {
+	text-decoration: underline;
+}
+
 h1, h2 {
 	text-align: center;
+	letter-spacing: 5px;
 }
 
 p {
 	padding: 2px 10px 10px;
+	word-spacing: 3px;
 }
 
 .GISbody img {
