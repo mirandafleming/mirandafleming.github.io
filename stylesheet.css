@@ -407,7 +407,7 @@ text-align:center;
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
 
 
-/*Remote Sensing page layout - Miranda Gilliland */
+/*--------- Remote Sensing page layout - Miranda Gilliland ----------*/
 
 .remotePic {
   max-width: 95%;
@@ -416,8 +416,8 @@ text-align:center;
 }
 
 .remoteCol {
-  column-count: 2;
-  column-width: 45%;
+  column-count: 3;
+  column-width: 30%;
   column-rule-style: dotted;
 
 }
@@ -430,6 +430,9 @@ text-align:center;
   margin: auto;
 
 }
+/*--------- Remote Sensing End ----------*/
+
+
 
 
 
