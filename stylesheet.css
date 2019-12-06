@@ -549,6 +549,15 @@ body {
 
 /* ---- Map Gallery - by Brooke ---- */
 
+.gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	overflow: hidden;
+}
+
 .galleryHeader {
 	background-color: lightgray;
 	margin: 15px 5px;
@@ -566,11 +575,8 @@ body {
 
 .galleryWrapper {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: white;
-	overflow: hidden;
 	margin: 5px;
 }
 
@@ -584,7 +590,7 @@ body {
 	align-items: center;
 } 
 
-.galleryMaps img { 
+.gallery img { 
 	max-width: 100%;
 	height: auto;
 }
@@ -603,10 +609,9 @@ body {
 		transition: all 0.9s ease;
 		transform: scale(0.1);
 	} */
-
 }
 
-.galleryOverlay p {
+.galleryOverlay h3, .galleryOverlay p {
 	transition: all 0.9s ease;
 	transform: scale(0.1);
 	text-align: center;
@@ -619,7 +624,7 @@ body {
 	transition: all 0.5 ease;
 }
 
-.galleryMaps p:hover .galleryOverlay p {
+.galleryMaps:hover .galleryOverlay p .galleryoverlay h3 {
 	transform: scale(1);
 	transition: all 0.9s ease;
 }
