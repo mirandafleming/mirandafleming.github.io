@@ -483,6 +483,51 @@ body {
 
 
 
+/*--------------- History Page by Miranda Gilliland -------------*/
+
+.histText{
+display: block;
+max-width: 85%;
+max-height: 60%;
+text-align: center;
+margin: auto;
+margin-top: 1%;
+margin-bottom: 1%;
+font-size: 1vw;
+font-family: Helvetica, Arial, sans-serif;
+color:black;
+}
+
+.histBox{
+  margin-bottom: 5%;
+  border-bottom-width: 5px;
+  border-bottom-style: dotted;
+  border-bottom-color: lightgrey;
+  border-top-width: 5px;
+  border-top-style: dotted;
+  border-top-color: lightgrey;
+}
+
+.histQuote{
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin: 5%;
+}
+
+.histQjust{
+  text-align: right;
+}
+
+.histH2{
+  font-size: 1.25vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  text-align: center;
+}
+
+/*---------- History Page End -----------*/
+
 
 
 /* ---------- what we do > GIS page - by Brooke ----------- */
