@@ -407,9 +407,10 @@ text-align:center;
   left: 0;
   bottom: 0;
   width: 100%;
+  font-family: Helvetica;  
   background-color: #4A675A;
-  color: white;
   text-align: center;
+  
 }
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
 
@@ -477,13 +478,14 @@ text-align:center;
 	word-spacing: 3px;
 }
 
-/* .CartPage img {
+.CartPage img {
 	float: center;
 	max-width: 50%;
 	margin: auto; 
 	outline-style: double;
 	outline-color: grey;
-} */
+}
+
 
 .CartMap column {
 	float: left;
