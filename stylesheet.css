@@ -117,7 +117,6 @@ text-align:center;
 .topnav {
 	background-color: #4A675A;
 	overflow: hidden;
-	position: sticky;
   }
   
   /* Style for navbar links */
@@ -469,8 +468,6 @@ text-align:center;
 	padding: 2px 10px 10px;
 	word-spacing: 3px;
 }
-
-
 
 .CartPage img {
 	float: right;
