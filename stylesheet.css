@@ -477,14 +477,13 @@ text-align:center;
 	word-spacing: 3px;
 }
 
-.CartPage img {
+/* .CartPage img {
 	float: center;
 	max-width: 50%;
 	margin: auto; 
 	outline-style: double;
 	outline-color: grey;
-}
-
+} */
 
 .CartMap column {
 	float: left;
