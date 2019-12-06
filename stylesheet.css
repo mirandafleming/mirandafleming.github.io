@@ -637,8 +637,8 @@ color:black;
 	align-items: center; */
 	flex-basis: 20%;
 	width: 100%;
-	padding: 20px;
-	margin: 8px;
+	padding: 5px;
+	margin: 5px;
 } 
 
 .galleryMaps img { 
@@ -653,8 +653,8 @@ color:black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	height: 100%;
+	width: inherit;
+	height: inherit;
 	color: #4A675A;
 	transition: all 0.3s ease;
 }
@@ -672,8 +672,8 @@ color:black;
 }
 
 .galleryMaps:hover .galleryOverlay {
-	opacity: 0.8;
-	width: 90px;
+	opacity: 0.75;
+	width: inherit;
 	transition: all 0.3s ease;
 }
 
