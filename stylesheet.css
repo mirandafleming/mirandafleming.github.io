@@ -319,11 +319,11 @@ text-align:center;
 .about-list-icon  ul li a {
     padding-right: 22px;
     cursor:pointer;
-    color: #fff;
+    color: black;
 }
 .about-list-icon ul li a {
     cursor: pointer;
-    color: #fff;
+    color: black;
     display: inline-block;
     border: 2px solid;
     margin-left: 20px;
@@ -425,16 +425,16 @@ text-align:center;
 	background-color: lightgray;
 }
 
-h1 {
+.CartBody h1 {
 	text-decoration: underline;
 }
 
-h1, h2 {
+.CartBody h1, h2 {
 	text-align: center;
 	letter-spacing: 5px;
 }
 
-p {
+.CartBody p {
 	padding: 2px 10px 10px;
 	word-spacing: 3px;
 }
