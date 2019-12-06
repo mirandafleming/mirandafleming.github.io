@@ -473,67 +473,10 @@ body {
 
 /* ---------- what we do > GIS page - by Brooke ----------- */
 
-/* image placement & responsive */
-
-/* .CartPage {
-	border: 2px solid grey;
-	border-radius: 5px;
-} 
-
-.CartTopSec {
-	background-color: lightgrey;
-	padding: 5px;
-	margin: 10px;
-	text-align: center;
-}
-
-.CartPage h1 {
-	text-decoration: underline;
-	letter-spacing: 7px;
-}
-
-.CartMaps h1, h2 {
-	text-align: center;
-	letter-spacing: 5px;
-}
-
-.CartText column {
-	float: right;
-	text-align: left;
-	position: relative;
-	padding: 2px 10px 10px;
-	word-spacing: 3px;
-}
-
-.CartPage img {
-	float: center;
-	max-width: 50%;
-	margin: auto; 
-	outline-style: double;
-	outline-color: grey;
-} 
-
-.CartMap column {
-	float: left;
-	max-width:50%;
-	background-color:#e5e5e5;
-	margin: auto; 
-	outline-style: double;
-	outline-color: grey;
-  }
-  
-  
-  .contact-pic row::after {
-	content: "";
-	clear: both;
-	display: inline-block;
-  } */
-
-
 .header {
 	background-color: lightgrey;
 	margin: 15px 5px;
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
 	color: #4A675A;
 }
@@ -545,10 +488,13 @@ body {
 }
 
 .cart row {
-	 padding: 10px;
-	 margin: 5px 30px;
-	 background: white;
-	 list-style-type: none;
+	display: block;
+	float: center;
+	text-align: left;
+	padding: 10px;
+	margin: 5px 30px;
+	background: white;
+	list-style-type: none;
 }
 
 .first column {
@@ -573,13 +519,6 @@ body {
 	padding: 5px 37px;
 }
 
-/* .row img {
-	max-width: 100%;
-	padding: 20px;
-	border: 2px solid lightgrey;
-	box-shadow: 10px;
-}
-*/
 .cart row:after {
 	content: "";
 	display: table;
@@ -593,6 +532,6 @@ body {
 	}
 }
 
-
+/* ------- section ends ------- */
 
 
