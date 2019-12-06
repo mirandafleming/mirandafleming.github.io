@@ -416,20 +416,38 @@ text-align:center;
   column-span: 1;
 }
 
+.remoteDesc {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75vw;
+  color:black;
+}
+
 .remoteCol {
   column-count: 3;
   column-width: 30%;
-  column-rule-style: dotted;
+}
 
+.remoteh2 {
+  font-size: 1.25vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  text-align: center;
 }
 
 .remoteText {
   display: block;
-  max-width: 1000px;
-  max-height: 500px;
-  text-align: justify;
+  max-width: 85%;
+  max-height: 60%;
+  text-align: center;
   margin: auto;
-
+  margin-top: 1%;
+  margin-bottom: 1%;
+	font-size: 0.95vw;
+	font-family: Helvetica, Arial, sans-serif;
+  color:black;
+  border-style: groove;
+  border-width: 3px;
+	border-color:#e5e5e5;
 }
 /*--------- Remote Sensing End ----------*/
 
