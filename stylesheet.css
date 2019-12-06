@@ -366,13 +366,14 @@ text-align:center;
   width:23%;
   padding: 8px;
   height: 350%;
+  padding:15px;
 }
 
 /* Clear floats after image containers */
 .survey-pic row::after {
   content: "";
   clear: both;
-  display: table;
+  display: inline-block;
 } 
 
 /*---------------------------- contact us page; Katelyn Corrigall-Millins----------------------------------------- */
