@@ -387,7 +387,7 @@ text-align:center;
 
 /* contact us page; Katelyn Corrigall-Millins */
 .contact-pic column {
-  float: left;
+  float: center;
   width:50%;
   padding: 8px;
   height: 350;
