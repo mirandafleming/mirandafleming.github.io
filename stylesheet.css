@@ -117,6 +117,7 @@ text-align:center;
 .topnav {
 	background-color: #4A675A;
 	overflow: hidden;
+	position: sticky;
   }
   
   /* Style for navbar links */
@@ -428,14 +429,17 @@ text-align:center;
 }
 
 .CartBody p {
+	display: left;
+	position: relative;
 	padding: 2px 10px 10px;
 	word-spacing: 3px;
 }
 
 .GISbody img {
+	position: relative;
 	float: left;
-	max-width: 100%; 
+	max-width: 50%;
+	margin: auto; 
 	outline-style: double;
 	outline-color: grey;
-	padding: 10px;
 }
