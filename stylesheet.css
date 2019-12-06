@@ -384,9 +384,10 @@ text-align:center;
 /*---------------------------- contact us page; Katelyn Corrigall-Millins----------------------------------------- */
 /* ---------------- altered design of what was done above, no external sources used aside from html/css validator */
 .contact-pic column {
-  width:50%;
+  width:100%;
   padding: 8px;
-  height: 350%;
+  height: 500%;
+  margin-left: 50px;
   font-size: 18px;
   font-family: Helvetica;
   color:black;
