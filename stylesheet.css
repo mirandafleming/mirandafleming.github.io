@@ -368,7 +368,7 @@ text-align:center;
   float: left;
   width:23%;
   padding: 8px;
-  height: 350;
+  height: 350%;
 }
 
 /* Clear floats after image containers */
@@ -380,10 +380,9 @@ text-align:center;
 
 /* contact us page; Katelyn Corrigall-Millins */
 .contact-pic column {
-  float: center;
   width:50%;
   padding: 8px;
-  height: 350;
+  height: 350%;
   font-size: 18px;
   font-family: Helvetica;
   color:black;
