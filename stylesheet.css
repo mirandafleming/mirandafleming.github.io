@@ -117,7 +117,6 @@ text-align:center;
 .topnav {
 	background-color: #4A675A;
 	overflow: hidden;
-	position: sticky;
   }
   
   /* Style for navbar links */
@@ -369,7 +368,7 @@ text-align:center;
   float: left;
   width:23%;
   padding: 8px;
-  height: 350;
+  height: 350%;
 }
 
 /* Clear floats after image containers */
@@ -381,10 +380,9 @@ text-align:center;
 
 /* contact us page; Katelyn Corrigall-Millins */
 .contact-pic column {
-  float: center;
   width:50%;
   padding: 8px;
-  height: 350;
+  height: 350%;
   font-size: 18px;
   font-family: Helvetica;
   color:black;
@@ -403,8 +401,17 @@ text-align:center;
 
 
 /* -----------------------------------------------------------*/
-/* footer section */
-/* remove for now */
+/* footer section Katelyn Corrigall-Millins; sticky footer mixture from w3schools, https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript */ 
+.footer p{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: Helvetica;  
+  background-color: #4A675A;
+  text-align: center;
+  
+}
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
 
 
@@ -459,33 +466,59 @@ text-align:center;
 
 /* image placement & responsive */
 
-.CartBody {
+/* .CartPage {
 	border: 2px solid grey;
 	border-radius: 5px;
-	background-color: lightgray;
+} */
+
+.CartTopSec {
+	background-color: lightgrey;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
 }
 
-.CartBody h1 {
+.CartPage h1 {
 	text-decoration: underline;
+	letter-spacing: 7px;
 }
 
-.CartBody h1, h2 {
+.CartMaps h1, h2 {
 	text-align: center;
 	letter-spacing: 5px;
 }
 
-.CartBody p {
-	display: left;
+.CartText column {
+	float: right;
+	text-align: left;
 	position: relative;
 	padding: 2px 10px 10px;
 	word-spacing: 3px;
 }
 
-.GISbody img {
-	position: relative;
-	float: left;
+.CartPage img {
+	float: center;
 	max-width: 50%;
 	margin: auto; 
 	outline-style: double;
 	outline-color: grey;
 }
+
+
+.CartMap column {
+	float: left;
+	max-width:50%;
+	background-color:#e5e5e5;
+	margin: auto; 
+	outline-style: double;
+	outline-color: grey;
+  }
+  
+  /* 
+  .contact-pic row::after {
+	content: "";
+	clear: both;
+	display: inline-block;
+  } */
+
+
