@@ -489,7 +489,7 @@ body {
 
 .cart row {
 	display: block;
-	float: center;
+	float: middle;
 	text-align: left;
 	padding: 10px, 0px;
 	background: white;
@@ -503,7 +503,7 @@ body {
 }
 
 .second column {
-	float: center;
+	clear: none;
 }
 
 .third column {
@@ -514,7 +514,7 @@ body {
 	width: 33%;
 	list-style-type: none;
 	text-align: center;
-	margin: 10 px;
+	margin: 10px;
 	padding: 5px 37px;
 }
 
@@ -533,4 +533,49 @@ body {
 
 /* ------- section ends ------- */
 
+/* ---- Map Gallery - by Brooke ---- */
 
+
+.photoFrame {
+	width: 80%;
+	background-color: white;
+	border: 3px solid lightgray;
+	margin-bottom: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.photoDesc {
+	text-align: center;
+	padding: 15px;
+}
+
+.galleryResponsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.999%;
+}
+
+@media only screen and (max-width: 700px) {
+	.galleryResponsive {
+		width: 49.999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.galleryResponsive {
+		width: 100%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
