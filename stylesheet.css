@@ -114,13 +114,13 @@ text-align:center;
 /*  Navigation bar - Brooke's section  */
 
 /* background color for navbar  */
-.navbar {
+.navbar, .topnav {
 	background-color: #4A675A;
 	overflow: hidden;
 }
   
   /* Style for navbar links */
-.navbar a {
+.navbar a, .topnav a {
 	float: left;
 	display: block;
 	color: whitesmoke;
@@ -137,7 +137,7 @@ text-align:center;
 }
   
   /* Hide the link that opens & closes the nav bar on small screens */
-.navbar .icon {
+.navbar .icon, .topnav .icon {
 	display: none;
 }
   
@@ -181,7 +181,7 @@ text-align:center;
 }
   
 /* Add a background color to nav bar links & dropdown button on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .topnav a:hover, .dropdown:hover .dropbtn {
 	background-color:  rgb(159, 170, 145);
 	color: whitesmoke;
 }
