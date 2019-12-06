@@ -402,7 +402,7 @@ text-align:center;
 
 /* -----------------------------------------------------------*/
 /* footer section Katelyn Corrigall-Millins; sticky footer mixture from w3schools, https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript */ 
-.footer {
+.footer p{
   position: fixed;
   left: 0;
   bottom: 0;
