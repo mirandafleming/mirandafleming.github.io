@@ -522,8 +522,11 @@ color:black;
 .histH2{
   font-size: 1.25vw;
   font-family: Arial, Helvetica, sans-serif;
-  color:black;
   text-align: center;
+}
+
+.histSource{
+  font-size: 0.75vw;
 }
 
 /*---------- History Page End -----------*/
