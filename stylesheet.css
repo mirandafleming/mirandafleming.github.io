@@ -385,6 +385,7 @@ text-align:center;
 /* ---------------- altered design of what was done above, no external sources used aside from html/css validator */
 .contact-pic column {
   padding: 8px;
+  width: 100%;
   height: 500%;
   margin: 110px auto;
   font-size: 18px;
