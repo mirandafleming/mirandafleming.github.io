@@ -373,7 +373,7 @@ text-align:center;
 .survey-pic row::after {
   content: "";
   clear: both;
-  display: inline-block;
+  display: table;
 } 
 
 /*---------------------------- contact us page; Katelyn Corrigall-Millins----------------------------------------- */
