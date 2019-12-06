@@ -408,6 +408,34 @@ text-align:center;
 /*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/
 
 
+/*--------- Remote Sensing page layout - Miranda Gilliland ----------*/
+
+.remotePic {
+  max-width: 95%;
+  margin: auto;
+  column-span: 1;
+}
+
+.remoteCol {
+  column-count: 3;
+  column-width: 30%;
+  column-rule-style: dotted;
+
+}
+
+.remoteText {
+  display: block;
+  max-width: 1000px;
+  max-height: 500px;
+  text-align: justify;
+  margin: auto;
+
+}
+/*--------- Remote Sensing End ----------*/
+
+
+
+
 
 /* ---------- what we do > GIS page - by Brooke ----------- */
 
