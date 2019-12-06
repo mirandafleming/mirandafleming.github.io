@@ -407,10 +407,12 @@ text-align:center;
 
 /* -----------------------------------------------------------*/
 /* footer section Katelyn Corrigall-Millins; 
-footer mixture from w3schools, 
-https://css-tricks.com/snippets/jquery/jquery-sticky-footer/,
+footer mixture from w3schools,
 https://stackoverflow.com/questions/30276950/keep-the-footer-at-the-bottom-with-javascript, 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer*/ 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+https://css-tricks.com/couple-takes-sticky-footer/
+https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+*/ 
 
 html, body {
   height: 100%;
@@ -419,6 +421,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* picturesurv encompases all the text in the page to ensure the footer stays at the bottom and flexes with pag */
 .picturesurv {
   flex: 1 0 auto;
 }
@@ -429,7 +432,7 @@ body {
   color: white;
   text-align: center; 
 }
-
+/*--------- footer end---------------------- */
 /*--------- Remote Sensing page layout - Miranda Gilliland ----------*/
 
 .remotePic {
@@ -549,15 +552,6 @@ body {
 
 /* ---- Map Gallery - by Brooke ---- */
 
-.gallery {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background: white;
-	overflow: hidden;
-}
-
 .galleryHeader {
 	background-color: lightgray;
 	margin: 15px 5px;
@@ -573,8 +567,11 @@ body {
 
 .galleryWrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background: white;
+	overflow: hidden;
 	margin: 5px;
 }
 
@@ -588,7 +585,7 @@ body {
 	align-items: center;
 } 
 
-.gallery img { 
+.galleryMaps img { 
 	max-width: 100%;
 	height: auto;
 }
@@ -609,7 +606,9 @@ body {
 		transform: scale(0.1);
 	} */
 
-.galleryOverlay h3, .galleryOverlay p {
+}
+
+.galleryOverlay p {
 	transition: all 0.9s ease;
 	transform: scale(0.1);
 	text-align: center;
@@ -622,7 +621,7 @@ body {
 	transition: all 0.5 ease;
 }
 
-.galleryMaps:hover .galleryOverlay p .galleryoverlay h3 {
+.galleryMaps p:hover .galleryOverlay p {
 	transform: scale(1);
 	transition: all 0.9s ease;
 }
