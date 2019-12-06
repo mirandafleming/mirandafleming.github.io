@@ -533,4 +533,23 @@ body {
 
 /* ------- section ends ------- */
 
+/* ---- Map Gallery - by Brooke ---- */
 
+
+.photoFrame {
+	width: 80%;
+	background-color: white;
+	border: 3px solid lightgray;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+.gallery img {
+	width: 50%;
+	height: auto;
+}
+
+.photoDesc {
+	text-align: center;
+	padding: 15px;
+}
