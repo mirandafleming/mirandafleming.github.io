@@ -448,6 +448,7 @@ body {
 .remoteCol {
   column-count: 3;
   column-width: 30%;
+  margin-bottom: 3%;
 }
 
 .remoteh2 {
