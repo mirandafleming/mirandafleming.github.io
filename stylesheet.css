@@ -413,31 +413,39 @@ text-align:center;
 
 /* image placement & responsive */
 
-.CartBody {
+.CartPage {
 	border: 2px solid grey;
 	border-radius: 5px;
-	background-color: lightgray;
 }
 
-.CartBody h1 {
+.CartTopSec {
+	background-color: lightgrey;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+}
+
+.CartPage h1 {
 	text-decoration: underline;
+	letter-spacing: 7px;
 }
 
-.CartBody h1, h2 {
+.CartPage h1, h2 {
 	text-align: center;
 	letter-spacing: 5px;
 }
 
-.CartBody p {
+.CartPage p {
 	display: left;
 	position: relative;
 	padding: 2px 10px 10px;
 	word-spacing: 3px;
 }
 
-.GISbody img {
-	position: relative;
-	float: left;
+
+
+.CartPage img {
+	float: right;
 	max-width: 50%;
 	margin: auto; 
 	outline-style: double;
