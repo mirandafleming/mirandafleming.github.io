@@ -558,6 +558,12 @@ color:black;
 	list-style-type: none;
 }
 
+.GIS row p {
+	text-align: left;
+	float: center;
+	padding: 10px 0px;
+}
+
 .first column {
 	float: right;
 	padding-left: 20px;
@@ -573,21 +579,21 @@ color:black;
 }
 
 .first column, .second column, .third column {
-	width: 33%;
+	width: 33.333%;
 	list-style-type: none;
 	text-align: center;
 	margin: 10px;
 	padding: 5px 37px;
 }
 
-.cart row:after {
+/*.GIS row:after {
 	content: "";
 	display: table;
 	clear: both;
-}
+} 
 
 @media screen and (max-width: 800px) {
-	.rightcolumn, .leftcolumn {
+	.first column, .second column, .third column {
 		width: 100%;
 		padding: 0;
 	}
@@ -631,8 +637,8 @@ color:black;
 	align-items: center; */
 	flex-basis: 20%;
 	width: 100%;
-	padding: 20px;
-	margin: 8px;
+	padding: 5px;
+	margin: 5px;
 } 
 
 .galleryMaps img { 
@@ -647,8 +653,8 @@ color:black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	height: 100%;
+	width: inherit;
+	height: inherit;
 	color: #4A675A;
 	transition: all 0.3s ease;
 }
@@ -666,8 +672,8 @@ color:black;
 }
 
 .galleryMaps:hover .galleryOverlay {
-	opacity: 0.8;
-	width: 90px;
+	opacity: 0.75;
+	width: inherit;
 	transition: all 0.3s ease;
 }
 
